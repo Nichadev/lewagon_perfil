@@ -1,0 +1,80 @@
+body {
+    background-color: #B6BBC4;
+}
+
+.card-white {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    background-color: #F0ECE5;
+}
+
+.card-white #photo{
+    margin: auto;
+    box-shadow: 1px 1px 10px black;
+}
+
+.card-white .img-circle {
+    border-radius: 85px;
+}
+
+.card-white .img-width {
+    width: 25%;
+} 
+
+.text-center{
+    text-align: center;
+}
+
+#container{
+    width: 700px; /* establece el ancho de tu container */
+    margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+    /* Para una pantalla < 960px, se leerá este CSS */
+    #container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* Para una pantalla < 720px, se leerá este CSS */
+    #container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* Para una pantalla < 540px, se leerá este CSS */
+    #container {
+      width: 300px;
+    }
+  }
+  
+
+.title {
+    font-family: 'Roboto Mono', monospace;
+    color: #161A30;
+}
+
+.profile-info{
+    font-family: 'Nunito', sans-serif;
+    color: #31304D;
+}
+
+#icons {
+    width: 50%;
+    margin: auto;
+}
+
+#icons ul {
+    display: flex;
+    justify-content: center;
+}
+
+#icons ul li {
+    list-style: none;
+    padding-right: 10px;
+
+}
